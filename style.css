@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+
+}
+.container{
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 34%;
+}
+.logo> h1{
+    padding-top: 64px;
+}
+.logo > div{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.logo > div > a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo > div > a.one:hover {
+    background-color: #607d8b;
+}
+.logo > div > a.two:hover {
+    background-color: #009688;
+}
+.logo > div > a.three:hover {
+    background-color: rgb(97, 97, 97);
+}
+.logo > div > a.four:hover {
+    background-color:rgb(121, 85, 72);
+}
+.about_me{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    width: 34%;
+    height: 100%;
+    background-color: #607d8b;
+    text-align: center;
+    color:white;
+}
+.about_me > h1{
+    padding-top: 64px;
+    margin: 16px;
+}
+.about_me > img{
+    border-radius: 50%;
+    width: 50%;
+    margin: 16px;
+    
+}
+
+.about_me_lorem{
+    text-align: start;
+    margin: 0 50px;
+}
+.about_me_lorem>p{
+    margin-top: 20px;
+}
+.my_work{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    width: 34%;
+}
+.my_work > h1 {
+    padding-top: 64px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+
+}
+.my_work > p {
+    padding-top: 30px;
+}
+
+.work_images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 64px;
+}   
+
+.work_images > img{
+    width: 50%;
+    border-style: none;
+    
+}
+.resume{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    width: 34%; 
+}
+.resume > h1{
+    padding-top: 64px;
+}
+.resume > p {
+    padding-top: 30px;
+    margin: 10px 0;
+    padding-bottom: 30px;
+
+}
+.div_table{
+    width: 100%;
+}
+.resume_table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:  20px;
+    margin-right: 20px;
+    text-align: start;
+}
+.white_table{
+    color: #000;
+    background-color: #fff ;
+}
+.resume_table > tbody > tr > td{
+    padding: 15px;
+}
+.resume_table > tbody > tr > th{
+    padding: 8px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+.swing_by{
+    height:  100%;
+    background-color: #616161;
+    width: 34%;
+    color: white;
+    text-align: center;
+}
+.swing_by > h1 {
+    padding-top: 64px ;
+    padding-bottom: 100px;
+    margin: 10px 0;
+}
+.swing_by > p {
+    padding-top: 30px ;
+}
+
+.contact{
+    height:  100%;
+    background-color: #009688;
+    width: 34%; 
+    color: white;
+}
+.contact > h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-top: 64px ;
+    margin-left: 6.5%;
+
+}
+.contact > form {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 0.01em 16px;
+    padding-top: 32px ;
+    padding-bottom: 32px ;
+    width: 80%;
+    margin: 0 auto;
+  
+     
+}
+.contact > p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 6.5%;
+
+}
+.contact > form > input{
+    margin: 10px 0;
+    width:90%;
+    padding: 15px;
+    border: none;
+}
+.contact > form > input:focus{
+ 
+    border: solid;
+}
+.contact > form > label{
+    margin-top: 20px;
+}
+
+.contact > form > button{
+    background-color: #009688;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    float: right ;
+    margin-top: -10px;
+}
+footer{
+    width: 68%;
+    background-color: #000;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+    margin: 0 auto;
+    
+    
+}
+footer>p{
+    color: #fff;
+    margin: 15px;
+}
